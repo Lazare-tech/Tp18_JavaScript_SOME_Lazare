@@ -1,94 +1,3 @@
-@media all and (max-device-width: 1024px) {
-    .media_ {
-        /* font-size: 19px; */
-        font-size: medium;
-    }
-
-    .smart {
-        font-size: 10px;
-    }
-
-    .scrollmenu {
-        flex-direction: column;
-        position: absolute;
-        left: 100px;
-    }
-
-    .featured {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .chifre {
-        font-size: 10px;
-        color: #dddddd;
-        font-weight: bold;
-    }
-    .text{
-        font-size: 9px;
-    }
-    .chifre >h1 {
-        font-size: 10px;
-    }
-    /* .position_block_text_image_2{
-        width: 100%;
-    } */
-   
-    .card1 >img {
-        width: 110px;
-    }
-    .card2>img {
-        width: 110px;
-    }
-    .card3{
-        width: 100px;
-    }
-    .image_ligne1 > img {
-        width: auto;
-    }
-   
-}
-
-@media all and (max-width:470px){
-    .principale,.block_principale2{
-        flex-direction: column;
-        text-align: center;
-        
-    }
-    .dernier_div{
-     flex-direction: column;   
-     position: absolute;
-     left: 100px;
-    }
-    .image_ligne1>img{
-        width: 100px;
-        /* position: absolute;
-        right: 300px; */
-    }
-    .image_ligne1{
-    position: relative;
-    right: 100px;
-    }
-}
-@media all and (max-width:500px){
-    .card{
-        flex-direction: column;
-    }
-}
-
-/* //nav bar responsive */
-.topnav {
-  overflow: hidden;
-  background-color: #fdf2e9;
-}
-@media all and (max-width:548px){
-  /* section .flex-container{
-    display: flex;
-    flex-direction: column;
-    
-  } */
-  
-}
 
 .topnav a {
   float: right;
@@ -135,329 +44,90 @@
     text-align: left;
   }
 }
-/* nav bar responsive */
-
-nav{
-  height: 80px;
-  width: 100%;
-  
-}
-label.logo {
-  font-size: 35px;
-  font-weight: bold;
-  padding: 0 100;
-  line-height: 80px;
-}
-nav ul{
-  float: right;
-  margin-right: 40px;
-}
-nav li {
-  display: inline-block;
-  margin: 0 8px;
-  line-height: 80px;
-}
- nav a {
-   font-size: 18px;
-   
- }
-a:hover{
-  background: gray;   
- }
-nav #icon{
-  color: black;
-  font-size: 80px;
-  line-height: 80px;
-  float: right;
-  
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-.fa-bars{
-  font-size: 27px;
-}
-div.scrollmenu {
-    overflow: auto;
-}
-
-.scrollmenu {
-    display: flex;
-    float: right;
-}
-
-.a_plan {
-    background: #fdf2e9;
-}
-
-
-.try {
-    float: right;
-
-}
-
-
-
-.tryy {
-    background-color: #e67e22;
-}
-
-.tryy>a {
-    color: white;
-    border-radius: 50%;
-}
-
-.text_blanc {
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.text_noire {
-    color: black;
-}
-.learn {
-  background-color: white;
-  font-weight: 300px;
-}
-div.scrollmenu a {
-
-    color: black;
-    text-align: center;
-    padding: 9px;
-    /* margin: 9px; */
-    text-decoration: none;
-
-}
-
-.smart {
-    font-size: 20px;
-}
-
-.index {
-    /* width: 400px;
-      height: 400px; */
-width: 300px;    
-}
-.food{
-  position: absolute;
-  left: 200px;
-}
+/* hero party */
 .i1{
-  /* z-index: -1; */
-  position: absolute;
-  left: 740px;
+
+  position:absolute;
+  left: 300px;
+  z-index: 2;
+  width: 330px;
 }
-.i2{
-  position: absolute;
-  left: 540px;
-  top:130px;
+.i2 {
+  position:absolute;
+  z-index: 3;
+  width: 270px;
+  top:150px;
+  left: 130px;
 }
-.i3{
-  position: absolute;
-  left: 588px;
-  top:-33px;
-}
-
-
-.try {
-    background-color: #e8862f;
-    border-radius: 3px;
-}
-
-
-
-
-
-div.scrollmenu a:hover {
-    background-color: #777;
+.i3 {
+  position:absolute;
+  z-index: 1;
+  width: 400px;
+  left: 100px;
 }
 
-/* .flex-container {
-    display: flex;
+/* phone partie */
+.chifre {
+  font-size: 5rem;
+  color: #dddddd;
+  font-weight: bold;
 
-} */
-
-/* .flex-container>div {
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-} */
-
-/* deuxieme section.................. */
-
-.featured {
-    display: flex;
-    justify-content: space-between
 }
-
-
-/* fin deuxieme section......................... */
-
-
-/* troisieme section .................... */
-/* .para {
-    position: relative;
-    left: 199px;
-  } */
-.para>h1 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.how {
-    float: left;
-}
-
-.how_it {
-
-    float: left;
-    width: auto;
-}
-
-/* fin troisieme section.............................. */
-/* start phone partie quatrieme section.................. */
-.quatrieme_section {
-    position: absolute;
-    left: 99px;
-}
-
-
 
 .arriere_plan_phone {
-    width: 230px;
-    height: 150px;
-    /* width: 100%;
-    height: 100%; */
-    /* width: auto;
-    height: auto; */
-    background-color: #fae5d3;
-    border-radius: 50%;
-    border: 25px solid #fdf2e9;
+  width: 230px;
+  height: 150px;
+
+  background-color: #fae5d3;
+  border-radius: 50%;
+  border: 25px solid #fdf2e9;
+  position: relative;
+  left: 100px;
+
+}
+/* burger party */
+.fa-check{
+  color: #e7862f;
+}
+.fa-burn, .fa-star ,.fa-utensils-alt{
+  color: #e7862f;;
+}
+/* food party */
+.image_ronde {
+  border-radius: 50%;
+  width: 50px;
+  height: 39px;
+}
+.food-party{
+  display: flex;
+}
+.foo{
+  width: 200px;
+  height: 200px;
+}
+.principale {
+  background-color: #fdf2e9;
+  
+}
+
+.cadre_image_personne1,
+.cadre_image_personne2 {
+  display: flex;
+  position: relative;
+  left: 35px;
+  width: auto;
+}
+.principale,
+  .block_principale2 {
+    display: flex;
+  
+  }
+  .block_principale2 {
     position: relative;
-    left: 100px;
-
-}
-
-.position_block_text_image {
-    /* position: relative;
-    left: 190px;
-  
-   */
-    width: auto;
-}
-.position_block_text_image_2{
- /* position: absolute; */
-    right: 20px;
-
-}
-
-.phone_1,
-.phone_2,
-.phone_3 {
-    display: flex;
-}
-
-.chifre {
-    font-size: 60px;
-    color: #dddddd;
-    font-weight: bold;
-}
-
-.phone {
-    width: 389px;
-    height: 395px;
-    /* width: auto; */
-    position: relative;
-    top: -99px;
-    left: -235px;
-
-
-}
-/* cinquieme section */
-  
-.fa-check {
-    display: inline-block;
-  }
-  
-  
-  .vege {
-    background-color: #94d82d;
-  }
-  
-  .paleo {
-    background-color: #ffd43b;
-  }
-  
-  .vege,
-  .paleo {
-    border-radius: 7px;
+    left: 95px; 
   
   }
-  
-  .meal {
-    color: chocolate;
-  }
-  .card {
-    display: flex;
-    /* position: relative;
-    left: 239px;
-   */
-   /* position:absolute;
-   left: 239px; */
-  }
-  .Omnifood_chooses {
-    font-size: 35px;
-  }
-  
-  .card1,
-  .card2 {
-    /* border: 12px solid rgb(238, 235, 235);; */
-    padding: 9px;
-    margin: 23px;
-    box-shadow: 10px 10px 10px rgb(238, 235, 235);
-    box-sizing: content-box;
-  
-  }
-  .see_recipes {
-    text-align: center;
-    color: chocolate;
-  }
-  .fa-check,
-  .fa-times {
-    color: chocolate;
-  }
-  
-  .starter,
-  .complete {
-    text-align: center;
-    color: chocolate;
-    font-weight: bold;
-  }
-  button>a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .bouton {
-    background-color: chocolate;
-    font-size: 16px;
-    border-radius: 4px;
-    border: none;
-    padding: 9px;
-  
-  }
-  .prices_include {
-    font-size: 11px;
-    text-align: center;
-  }
-  .card_prix {
-    display: flex;
-    /* position: relative;
-    left: 377px;
-  } */
-}
+  /* //......................... */
   .card_prix2 {
     background-color: #fdf2e9;
   }
@@ -479,76 +149,16 @@ div.scrollmenu a:hover {
     /* position: relative;
     left: 95px; */
   }
-  /* cinquieme sec
-  
-  /* sixieme section debut */
-  .principale {
-    background-color: #fdf2e9;
+  .prices_include {
+    font-size: 11px;
+    text-align: center;
+  }
+  .btn-warning a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500px;
     
   }
-  
-  .cadre_image_personne1,
-  .cadre_image_personne2 {
-    display: flex;
-    position: relative;
-    left: 35px;
-    width: auto;
-  }
-  
-  .image_ronde {
-    border-radius: 50%;
-    width: 50px;
-    height: 39px;
-  }
-  
-  .principale,
-  .block_principale2 {
-    display: flex;
-  
-  }
-  
-  .text {
-    font-size: 13px;
-  }
-  
-  .block_principale2 {
-    position: relative;
-    left: 95px; 
-  
-  }
- 
-  .cadre {
-    margin: 19px;
-  
-  }
-  
-  .testimonial {
-    position: relative;
-    left: 49px;
-  
-  }
-  .testi {
-    color: chocolate;
-  }
-  
-  .h1 {
-    font-size: 31px;
-  }
-  
-  
-  /* fin sixieme  */
-  
-  /* huitieme debu */
-  .dernier_div {
-    display: flex;
-  /* left: 200px; */
-  /* position:absolute;
-  left: 200px; */
-  }
-  .block_ {
-    padding: 11px;
-  }
-  
   .fa-infinity,
 .fa-apple-alt,
 .fa-feather-alt,
@@ -560,95 +170,47 @@ div.scrollmenu a:hover {
   color: #f1b785;
 
 }
+.formulaire{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
 
-/* form partie............................ */
-.block_ {
-    padding: 11px;
-  }
-  
-  
-  
-  .form_block {
-    display: flex;
-    position:absolute;
-    left: 199px;
-
-  }
-  
-  form {
-    background-color: #e8862f;
-
-  }
-  
-  
-  .opinion {
-    position: relative;
-    top: 79px;
-    left: -429px;
-  }
-  
-  .sign {
-    position: absolute;
-    top: 269px;
-    left: 309px;
-    height: 45px;
-    width: 209px;
-    background-color: #45260a;
-    border-radius: 7px;
-  }
-  
-  input {
-    width: 179px;
-    height: 30px;
-    background-color: white;
-  }
-  
-  .opinion>select {
-    width: 239px;
-    height: 39px;
-    position: relative;
-    top: -9px
-  }
-  
-  .opinion {
-    position: relative;
-    left: 1px;
-    top: -49px;
-  }
-  
-  .fullName {
-    width: 227px;
-  }
-  
-  .email {
-    width: 200px;
-  }
-  
-  .mail {
-    position: relative;
-    left: 309px;
-    top: -55px;
-  }
-  
-  .form_image {
-    position: relative;
-    left: 9px;
-    top: 7px;
-  
-  
-  }
-
-  
-  .form_image>img {
-    height: 357px;
-    width: 300px;
-  
-  }
-  
-  /* fin partie form.............................. */
-  .footer,
+}
+.sign{
+  background: #45260a;
+  color: white;
+}
+.form-party{
+  background-color: #e98b39;
+}
+.footer,
   a {
     text-decoration: none;
     color: black;
+    font-size: 1.2rem;
   }
-  
+  .hero {
+    display: flex;
+  }
+  .hero-image{
+    position: absolute;
+    top:200px;
+    left: 800px;
+  }
+  .hero-text{
+    position: absolute;
+    top:200px;
+  }
+  .hero-titre{
+    font-size: 3rem;
+  }
+  .hero-p{
+    font-size: 1.5rem;
+  }
+  .flex-container{
+    display: flex;
+}
+.eating-well{
+  font-weight: 500px;
+}
