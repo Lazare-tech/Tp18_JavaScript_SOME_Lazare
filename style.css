@@ -1,4 +1,42 @@
+@media (max-width:1337px){
+  .image_ligne1{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.6rem !important;
+    padding: 1.6rem !important;
+  }
+}
+@media (max-width:945px){
+  .image_ligne1{
+    grid-template-columns: repeat(2, 1fr) !important;
+   
+  }
+  
+  /* .cadre_image_personne1{
+    display: inline-block !important  ;
+    background: red;
+  } */
+  .principale,
+  .block_principale2 {
+    flex-direction: column  ;
+  
+  }
+}
+@media (max-width:778px){
+  .cadre_image_personne1,
+.cadre_image_personne2 {
+  display: flex;
+  
+}
+.principale{
+  display: flex !important;
+  flex-direction: column !important;
+}
+.image_ligne1{
+  grid-template-columns: repeat(3, 1fr) !important;
 
+}
+}
 .topnav a {
   float: right;
   display: block;
@@ -44,11 +82,49 @@
     text-align: left;
   }
 }
+@media (max-width:1198px){
+  .formulaire{
+    grid-template-columns: 1fr !important ;
+    column-gap: 3rem !important;
+    row-gap: 2rem !important;
+     
+  }
+}
+@media (max-width:440px){
+}
+@media screen and (max-width: 1300px) {
+  .h{
+    display: flex;
+    flex-direction: column;
+  }
+  .i1{
+
+    position:absolute !important;
+    left: 190px !important;
+    z-index: 2 !important;
+    width: 300px !important;
+  }
+  .i2 {
+    position:absolute !important;
+    z-index: 3 !important;
+    width: 300px !important;
+    top:150px !important;
+    left: 130px !important;
+  }
+  .i3 {
+    position:absolute !important;
+    z-index: 1 !important;
+    width: 300px !important;
+    left: 100px !important;
+  }
+  
+  
+}
 /* hero party */
 .i1{
 
   position:absolute;
-  left: 300px;
+  left: 290px;
   z-index: 2;
   width: 330px;
 }
@@ -110,6 +186,17 @@
   
 }
 
+.image_ligne1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+.image_ligne1 img{
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
 .cadre_image_personne1,
 .cadre_image_personne2 {
   display: flex;
@@ -117,16 +204,25 @@
   left: 35px;
   width: auto;
 }
-.principale,
-  .block_principale2 {
-    display: flex;
-  
-  }
-  .block_principale2 {
-    position: relative;
-    left: 95px; 
-  
-  }
+.principale{
+  display: flex;
+  flex-direction: row;
+}
+.flex_container{
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #e67e22;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
+}
+.form_image{
+  width: 500px;
+  height: 500px;
+}
+ 
   /* //......................... */
   .card_prix2 {
     background-color: #fdf2e9;
@@ -184,6 +280,9 @@
 .form-party{
   background-color: #e98b39;
 }
+input,select{
+  padding: 8px;
+}
 .footer,
   a {
     text-decoration: none;
@@ -191,12 +290,12 @@
     font-size: 1.2rem;
   }
   .hero {
-    display: flex;
+   
   }
   .hero-image{
-    position: absolute;
-    top:200px;
-    left: 800px;
+   /* margin: 1px; */
+   /* margin-left: 2px; */
+   width: auto;
   }
   .hero-text{
     position: absolute;
@@ -208,9 +307,10 @@
   .hero-p{
     font-size: 1.5rem;
   }
-  .flex-container{
-    display: flex;
-}
+  
 .eating-well{
   font-weight: 500px;
+}
+.testi,.pricing{
+  color: #d17727;
 }
