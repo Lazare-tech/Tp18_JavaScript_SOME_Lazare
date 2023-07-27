@@ -120,6 +120,43 @@
   
   
 }
+@media (max-width:515px){
+  .index_image{
+    position: relative;
+    left: -59px;
+  }
+  .i1{
+
+    position:absolute !important;
+    left: 110px !important;
+    z-index: 2 !important;
+    width: 230px !important;
+  }
+  .i2 {
+    position:absolute !important;
+    z-index: 3 !important;
+    width: 170px !important;
+    top:120px !important;
+    left: 100px !important;
+  }
+  .i3 {
+    position:absolute !important;
+    z-index: 1 !important;
+    width: 200px !important; 
+    left: 60px !important;
+    top: -25px;
+  }
+}
+@media (max-width:305px){
+  .form-party{
+    background-color: #e98b39 !important;
+  
+  }
+  .form-outline ,select,.sign{
+  position: relative;
+  left: -20px;
+  }
+}
 /* hero party */
 .i1{
 
