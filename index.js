@@ -10,6 +10,5 @@ function myFunction() {
 const block=document.querySelector('.ch')
 if (window.screenX <983){
   block.style.display="block";
-} else (window.screenX>983){
+} else (window.screenX > 983)
   block.style.display="none";
-}
