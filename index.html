@@ -14,54 +14,70 @@
         crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <div class="topnav" id="myTopnav">
-        <!-- <label class="logo">OMNIFOOD</label> -->
-
-        <a href="#">How it works</a>
-        <a href="#">Meals</a>
-        <a href="#">testimonials</a>
-        <a href="#">Pricing</a>
-        <a href="#">Try for Free</a>
-
-        <!-- <label id="icon"> -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fas fa-bars "></i>
-        </a>
-    </div><br><br><br><br><br><br><br>
-    <section class="container hero "  style="height: 100vh;">
-
-        <div class="row h">
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="card-body">
-                    <h1 class="card-title hero-titre">
-                        A healthy meal delivered to your door, every single day</h1>
-                    <p class="card-text hero-p">
-                        The smart 365-days-per-year food subscription that will<br>make you eat healthy again.
-                        Tailored to
-                        your personal tastes<br>and nutritional needs.
-                    </p>
-                    <button class="btn btn-warning eating-well"><a href="#">Start eating well</a></button>
-                    <button class="btn learn"><a href="#">Learn more</a></button>
-                </div>
+    <div class="hero">
+        <div class="topnav " id="myTopnav">
+            <!-- <label class="logo">OMNIFOOD</label> -->
+            <div class="logo">
+                <img src="images/omnifood-logo.png" alt="" class="logo_omnifood">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 index_image"><br><br>
-                <div class="card border-0 ">
-                    <img src="images/cheese.jpg" alt="" class="index i1">
-                    <img src="images/salmon.jpg" alt="" class="index i2">
-                    <img src="images/french-fries.jpg" alt="" class="index i3">
-                </div>
-            </div>
+            <nav class="">
+                <ul class="menu_liste">
+                    <a href="#" class="list-item">How it works</a>
+                    <a href="#" class="list-item">Meals</a>
+                    <a href="#" class="list-item">testimonials</a>
+                    <a href="#" class="list-item">Pricing</a>
+                    <a href="#" class="list-item bouton btn btn-warning">Try for Free</a>
+
+                </ul>
+            </nav>
+
+
+
+            <!-- <label id="icon"> -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars fa-2x"></i>
+            </a>
         </div>
 
+        
+        <section class="container" style="height: 100vh;">
+
+            <div class="row h">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="card-body l">
+                        <h1 class="card-title hero-titre">
+                            A healthy meal delivered to your door, every single day</h1>
+                        <p class="card-text hero-p text-muted">
+                            The smart 365-days-per-year food subscription that will<br>make you eat healthy again.
+                            Tailored to
+                            your personal tastes<br>and nutritional needs.
+                        </p>
+                        <div class="learn text-center">
+                        <button class="btn btn-warning eating-well"><a href="#">Start eating well</a></button>
+                        <button class="btn"><a href="#">Learn more</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 index_image"><br><br>
+                    <div class="card border-0 im">
+                        <img src="images/cheese.jpg" alt="" class="index i1">
+                        <img src="images/salmon.jpg" alt="" class="index i2">
+                        <img src="images/french-fries.jpg" alt="" class="index i3">
+                    </div>
+                </div>
+            </div>
 
 
-    </section>
+
+        </section>
+    </div>
     <!-- As featured in party -->
-    <section class="container">
+    <section class="container p-5">
         <div class="row">
             <h5 class="text-center">AS FEATURED</h5>
         </div>
@@ -76,7 +92,8 @@
                 <img src="images/the-new-york-times.png" alt="" style="width: 9rem;">
             </div>
             <div class="col-lg-2 col-md-2 col-sm-3 col-xs-2 mt-2"><img src="images/forbes.png" alt=""
-                    style="width: 9rem;"></div>
+                    style="width: 9rem;">
+            </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 mt-2"><img src="images/usa-today.png" alt=""
                     style="width: 9rem;"></div>
 
@@ -119,8 +136,13 @@
             <!-- </div> -->
         </div>
 
-        <div class="col-lg-6">
-            <div class="card border-0">
+        <div class="row">
+            <div class="col-lg-6 ct">
+                <div class="card border-0">
+                    <img src="images/tel1.webp" alt="images telephone" class="phone1 ">
+                </div>
+            </div>
+            <div class="card border-0 col-lg-6">
                 <div class="card-body">
                     <h1 class="card-title">
                         <span class="chifre">02</span><br>
@@ -133,19 +155,18 @@
                     </p>
                 </div>
             </div>
+            <div class="col-lg-6 ch">
+                <div class="card border-0">
+                    <img src="images/tel1.webp" alt="images telephone" class="phone1 ">
+                </div>
+            </div>
         </div>
         <!-- <div class="card col-lg-6"> -->
 
-        <div class="col-lg-6">
-            <div class="card border-0">
-                <img src="images/tel1.webp" alt="images telephone" class="phone1 ">
 
 
-            </div>
-        </div>
-
-        <div class="col-lg-6">
-            <div class="card border-0">
+        <div class="row">
+            <div class="card border-0 col-lg-6">
                 <div class="card-body">
                     <h1 class="card-title">
                         <span class="chifre">03</span><br>
@@ -158,14 +179,15 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="card border-0">
-                <img src="images/tel1.webp" alt="images telephone" class="phone1 ">
+            <div class="col-lg-6">
+                <div class="card border-0">
+                    <img src="images/tel1.webp" alt="images telephone" class="phone1 ">
 
 
+                </div>
             </div>
         </div>
+
 
     </section>
     <!-- meals party -->
@@ -179,7 +201,7 @@
                 <div class="card">
                     <img src="images/meal-1.jpg" alt="une image ici">
                     <div class="card-body">
-                        <h5 class="card-title gevetarian">VEGETARIAN</h5>
+                        <h5 c lass="card-title gevetarian">VEGETARIAN</h5>
                         <h5 class="card-title">Japanese Gyozas</h5>
                         <p>
                             <i class="fas fa-burn"></i>650 calories <br> <br>
@@ -200,7 +222,8 @@
                         <p>
                             <i class="fas fa-burn"></i>650 calories <br> <br>
                             <i class="fas fa-utensils-alt"></i>NutriScore ® 74<br><br>
-                            <i class="far fa-star"></i>4.9 rating (537)
+                            <i class="far fa-star"></i>4.9 rating (537) <br>
+
 
                         </p>
                     </div>
@@ -228,8 +251,8 @@
             </div>
         </div>
     </section><br>
-    <div class="container-fluid principale p-3">
-        <div class="block_principale1 p-3">
+    <div class="container-fluid principale ">
+        <div class="block_principale1 p-5">
             <div class="row">
                 <h4><span class="testi">TESTIMONIALS</span></h4><br>
                 <span class="h1"><b>Once you try it, you can't go back</b></span>
@@ -316,62 +339,67 @@
             <h1 class=""> Eating well without breaking the bank </h1>
         </div>
         <div class="row">
-            <div class="card col-lg-6 col-md-6 col-sm-12 col-xs-12  border-0">
-                <div class="card_prix1">
-                    <div class="card-body">
-                        <p class="card-text">
+            <div class="col-lg-6" >
+                <div class="card" style="height: 33rem;">
+                    <!-- <img src="images/meal-1.jpg" alt="une image ici"> -->
+                    <div class="card-body " style="height: 30rem;">
                         <h5 class="card-title text-center starter">STARTER</h5>
                         <h1 class="prix text-center"><span class="dolar">$</span>399</h1>
-                        <h6 class="text-center">per month. That's just $13 per meal!</h6>
+                        <h6 class="text-center text-muted">per month. That's just $13 per meal!</h6>
+                        <br><br>
+                        <p>
+                            <i class="fa fa-check fa-3x" aria-hidden="true"> </i>
+                            <span class="ii"> per day </span><br>
+
+                            <i class="fa fa-check fa-3x" aria-hidden="true"></i>
+                            <span class="ii">Order from 11am to 9pm </span><br>
+                            <i class="fa fa-check fa-3x" aria-hidden="true"></i>
+                           <span class="ii">Delivery is free</span> <br>
+                            <i class="fa fa-times fa-3x" aria-hidden="true"></i>
                         </p>
-                    </div>
-                    <div class="text-center">
-                        <i class="fa fa-check" aria-hidden="true"></i>1 meal per day <br> <br>
-                        <i class="fa fa-check" aria-hidden="true"></i>Order from 11am to 9pm <br> <br>
-                        <i class="fa fa-check" aria-hidden="true"></i>Delivery is free <br><br><br>
-                        <i class="fa fa-times" aria-hidden="true"></i>
-
-                    </div>
-                    <center>
-                        <button type="button" class="bouton btn btn-warning"><a href="#">Start eating well</a></button>
-                    </center>
-
-
-                </div>
-
-            </div>
-            <div class="col-lg-6 border-0  col-md-6 col-sm-12 col-xs-12 ">
-                <div class="card card_prix2 ">
-                    <div class="text-center">
-
-                        <div class="card-body">
-                            <p class="card-text">
-                            <h5 class="card-title text-center complete">COMPLETE</h5>
-                            <h1 class="prix text-center"><span class="dolar">$</span>649</h1>
-                            <h6 class="text-center">per month. That's just $13 per meal!</h6>
-                            </p>
-                            <p><i class="fa fa-check" aria-hidden="true"></i>2 meals per day <br><br>
-                                <i class="fa fa-check" aria-hidden="true"></i>Order 24/7 <br><br>
-                                <i class="fa fa-check" aria-hidden="true"></i>Delivery is free <br>
-                            </p>
-                            <i class="fa fa-check" aria-hidden="true"></i>Get access to latest recipes <br></p><br>
-                            <center>
-                                <button type="button" class="btn btn-warning"><a href="#">Start eating well</a></button>
-                            </center>
-
-
+                        <div class="">
+                            <button class="btn btn-warning">Start eating-well</button>
                         </div>
-
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <h6 class="text-center">
+            <div class="col-lg-6  ">
+                <div class="card c " style="height: 33rem;">
+                    <!-- <img src="images/meal-1.jpg" alt="une image ici"> -->
+                    <div class="card-body">
+
+                        <h5 class="card-title text-center complete">COMPLETE</h5>
+                        <h1 class="prix text-center"><span class="dolar">$</span>649</h1>
+                        <h6 class="text-center text-muted">per month. That's just $13 per meal!</h6>
+                        <br><br>
+                        <p>
+
+                            <i class="fa fa-check fa-3x" aria-hidden="true"></i>
+                            <span class="ii">meals per day</span><br>
+                            <i class="fa fa-check fa-3x" aria-hidden="true"></i>
+                            <span class="ii">Order 24/7</span> <br>
+                            <i class="fa fa-check fa-3x" aria-hidden="true"></i>
+                           <span class="ii"> Delivery is free</span> <br>
+                            <i class="fa fa-check fa-3x" aria-hidden="true"></i>
+                            <span class="ii iii">Get access to latest recipe</span> <br>
+                        </p>
+                        <div class="">
+                            <button class="btn btn-warning">Start eating-well</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row p-3">
+                <h6 class="text-center col-xs-12">
 
                     Prices include all applicable taxes. You can cancel at any time. Both plans include the following:
 
                 </h6>
             </div>
+        </div>
     </section>
     <section class="container">
         <div class="row p-4">
@@ -419,10 +447,10 @@
     <!-- form  -->
     <section class="container p-5 ">
         <div class="card border-0 ">
-            <div class="row form-party ">
+            <div class="row form-party">
 
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12  ">
-                    <div class="card-body  ">
+                    <div class="card-body">
                         <h1>Get your first meal for free!</h1>
                         <p class="card-text"> Healthy, tasty and hassle-free meals are waiting for you. Start eating
                             well today.
@@ -439,7 +467,7 @@
                             </div>
                             <div>
                                 <label for="option">Where did you from us?</label>
-                                <select name="select" id="select">
+                                <select name="select" id="select" class="form-select">
                                     <option value="">Please choose one option</option>
                                     <option value="">Friend and family</option>
                                     <option value="">YouTube Video</option>
@@ -448,11 +476,15 @@
                                     <option value="">Others</option>
                                 </select>
                             </div>
-                            <button class="sign col-xs-12">Sign up now</button>
+                            <div class="col-xs-12 form-outline p-4">
+                                <button class="btn btn-info col-lg-12  col-md-12 col-sm-12 col-xs-12 sign ">Sign up
+                                    now</button>
+
+                            </div>
                         </form>
                     </div>
                 </div>
-                <div class="card col-lg-6 col-md-12 col-sm-12 col-xs-12 border-0">
+                <div class="card col-lg-6 col-md-12 col-sm-12 col-xs-12 border-0 form-party">
                     <img src="images/i4.jpeg" alt="" class="img-fluid rounded-start">
 
                 </div>
@@ -466,11 +498,11 @@
     <section class="container">
         <div class="row p-5 footer text-center">
             <div class="col-lg-2 col-md-6 col-sm-6">
-                <p>
-                <h4> Omnifood logo </h4>
-                <i class="fab fa-instagram fa-2x mb-3 "></i>
-                <i class="fab fa-facebook-f fa-2x mb-3 "></i>
-                <i class="fab fa-twitter fa-2x mb-3 "></i>
+                <p><br>
+                    <img src="images/omnifood-logo.png" alt="" class="logo_omnifood_footer mb-3">
+                    <i class="fab fa-instagram fa-2x mb-3 "></i>
+                    <i class="fab fa-facebook-f fa-2x mb-3 "></i>
+                    <i class="fab fa-twitter fa-2x mb-3 "></i>
                 </p>
                 <p> Copyright © 2027 by Omnifood, <br>
                     Inc. All rights reserved.
